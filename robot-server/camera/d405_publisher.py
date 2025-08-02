@@ -126,7 +126,7 @@ class D405ImagePublisher:
             image = np.asanyarray(color_frame_d405.get_data())
             depth = np.asanyarray(depth_frame_d405.get_data())
 
-            image = transform_d405_to_iphone(image)
+            # image = transform_d405_to_iphone(image)
             image = cv2.resize(image, dsize=RESIZED_IMAGE, interpolation=cv2.INTER_CUBIC)
             # print(depth.min(), depth.max(), depth.shape)
 

@@ -14,7 +14,7 @@ train:
     exclude_envs: []
     sequence_length: 6
     control_timeskip: ${control_timeskip}
-    safe_action_threshold: 0.05
+    # safe_action_threshold: 0.05
     relative_gripper: False
     use_depth: ${use_depth}
   max_videoreaders_in_memory: 64
@@ -39,7 +39,7 @@ test:
     exclude_envs: []
     sequence_length: 6
     control_timeskip: ${control_timeskip}
-    safe_action_threshold: 0.05
+    # safe_action_threshold: 0.05
     relative_gripper: False
     use_depth: ${use_depth}
   max_videoreaders_in_memory: 64

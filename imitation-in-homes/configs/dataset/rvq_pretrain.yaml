@@ -14,7 +14,7 @@ train:
     exclude_envs: []
     sequence_length: 1
     control_timeskip: ${control_timeskip}
-    safe_action_threshold: 0.05
+    # safe_action_threshold: 0.05
     relative_gripper: False
     use_depth: ${use_depth}
   only_action_return: True
@@ -40,7 +40,7 @@ test:
     exclude_envs: []
     sequence_length: 1
     control_timeskip: ${control_timeskip}
-    safe_action_threshold: 0.05
+    # safe_action_threshold: 0.05
     relative_gripper: False
     use_depth: ${use_depth}
   only_action_return: True

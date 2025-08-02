@@ -12,7 +12,8 @@ device: cpu
 
 task: door_opening
 
-vqvae_load_dir: null
+model_weight_pth: checkpoints/2025-07-31/hat_pick-all-21-58-37-vqbet-n_embed-16-depth-False-dobb-e-temp-2.0-seq-select-True-split-train-True-frozen-enc-False-timeskip-7/checkpoint.pt
+vqvae_load_dir: checkpoints/2025-07-31/hat_pick-all-21-58-37-vqbet-n_embed-16-depth-False-dobb-e-temp-2.0-seq-select-True-split-train-True-frozen-enc-False-timeskip-7/checkpoint.pt
 vqvae_n_embed: 16
 temperature: 0.000001
 sequentially_select: true

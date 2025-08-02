@@ -9,7 +9,6 @@ dependencies:
   - torchvision>=0.15.2
   - pytorch-cuda=11.8
   - numpy>=1.25.2
-  - accelerate
   - pip
   - pip:
     - byol_pytorch==0.5.7
@@ -34,3 +33,4 @@ dependencies:
     - gdown==5.2.0
     - diffusers==0.11.1
     - gradio
+    - accelerate==1.0.1
